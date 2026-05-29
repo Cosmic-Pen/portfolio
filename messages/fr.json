@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "title": "Hedhli Saber | Réseaux, IoT, Robotique & IA",
+    "description": "Étudiant en ingénierie des communications et réseaux — expérience télécom terrain, CCNA, développement Django, vision par ordinateur, IoT et coordination robotique. Tunisie & remote."
+  },
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "development": "Développement",
+    "roboticsIot": "Robotique & IoT",
+    "experience": "Expérience",
+    "engagements": "Engagements",
+    "about": "À propos",
+    "resume": "CV"
+  },
+  "hero": {
+    "name": "Hedhli Saber",
+    "tagline": "Des réseaux qui relient. Des systèmes qui perçoivent et décident.",
+    "subhead": "Étudiant en 2ᵉ année en ingénierie des communications et réseaux à l'ENIG. Je conçois et maintiens des infrastructures réseau, développe des applications Python/Django et intègre IoT, vision par ordinateur et robotique sur matériel embarqué.",
+    "credentials": "Étudiant en ingénierie des communications et réseaux · ENIG · IoT · Robotique · Vision par ordinateur · Python/Django",
+    "ctaProjects": "Voir les projets",
+    "ctaResume": "Télécharger le CV"
+  },
+  "trust": {
+    "ccna": "CCNA 1 & 2 certifié · CCNA 3 en cours",
+    "enigrobots": "ENIGROBOTS 7.0 — coordination bureau",
+    "stack": "Python · Django · Linux · ESP32 / Raspberry Pi"
+  },
+  "dualPath": {
+    "title": "Deux axes d'ingénierie",
+    "devTitle": "Développement logiciel & IA",
+    "devDesc": "Plateformes full-stack, systèmes temps réel et deep learning — centrés sur Python et Django.",
+    "devCta": "Voir le développement",
+    "iotTitle": "Robotique, IoT & systèmes embarqués",
+    "iotDesc": "Prototypes de campus intelligent, capteurs, intégration énergétique et coordination embarquée.",
+    "iotCta": "Voir robotique & IoT"
+  },
+  "projects": {
+    "title": "Projets en vedette",
+    "subtitle": "Filtrer par axe technique",
+    "filterAll": "Tous",
+    "filterDevelopment": "Développement",
+    "filterRobotics": "Robotique & IoT",
+    "filterAi": "IA / ML",
+    "viewCaseStudy": "Voir l'étude de cas",
+    "hubTitle": "Projets",
+    "hubSubtitle": "Travaux d'ingénierie en logiciel, IA et systèmes embarqués.",
+    "role": {
+      "solo": "Solo — développement",
+      "team2": "2 membres — développement",
+      "teamLead": "Équipe — lead IoT"
+    },
+    "status": {
+      "comingSoon": "Code et médias — bientôt"
+    },
+    "items": {
+      "gan-sr": {
+        "title": "Super-résolution d'images par GAN",
+        "outcome": "Suréchantillonnage ×4 sur 200 000+ images, évalué par PSNR, SSIM et MSE."
+      },
+      "social-network": {
+        "title": "Plateforme de réseau social",
+        "outcome": "Plateforme Django solo avec auth, modèles de données et architecture modulaire."
+      },
+      "chatbot": {
+        "title": "Intégration chatbot IA",
+        "outcome": "Couche conversationnelle IA intégrée à la logique Django et au contexte utilisateur."
+      },
+      "realtime-chat": {
+        "title": "Plateforme de chat temps réel",
+        "outcome": "Messagerie temps réel avec WebSockets, React et persistance MySQL."
+      },
+      "smart-campus": {
+        "title": "Système IoT campus intelligent",
+        "outcome": "Monitoring solaire, capteurs climatiques et couche web temps réel pour les sous-systèmes du campus."
+      }
+    }
+  },
+  "development": {
+    "title": "Développement full-stack & logiciel",
+    "subtitle": "Écosystème Python — Django au centre, temps réel et ML selon le besoin.",
+    "comingSoon": "Dépôt et médias — bientôt"
+  },
+  "robotics": {
+    "title": "Robotique, IoT & systèmes embarqués",
+    "subtitle": "Capter, actionner, coordonner — matériel terrain, intelligence à la périphérie.",
+    "galleryPlaceholder": "Médias événements et projets — bientôt",
+    "comingSoon": "Schémas et galerie — bientôt"
+  },
+  "experience": {
+    "title": "Expérience",
+    "subtitle": "Ingénierie terrain et livraison projet — des opérations télécom à la coordination robotique.",
+    "secondarySection": "Expérience terrain antérieure",
+    "tt": {
+      "title": "Stagiaire technicien réseau",
+      "company": "Tunisie Telecom",
+      "period": "Terminé",
+      "b1": "Maintenance de 15+ lignes ADSL/VDSL en conditions opérationnelles.",
+      "b2": "Diagnostic d'atténuation de signal avec NetScan et mesures terrain.",
+      "b3": "Configuration de 15+ modems sur 30+ tournées terrain."
+    }
+  },
+  "engagements": {
+    "title": "Engagements et activités",
+    "subtitle": "Clubs, événements et rôles de coordination — là où je pilote les équipes.",
+    "filterAll": "Tous",
+    "filterRobotics": "Robotique",
+    "filterEvents": "Événements",
+    "mediaPlaceholder": "Photos et vidéos — bientôt",
+    "items": {
+      "enigrobots-7": {
+        "title": "Membre du bureau — ENIGROBOTS 7.0",
+        "org": "Événement robotique international à l'ENIG",
+        "t1": "Coordination d'une équipe opérationnelle de 30+ étudiants.",
+        "t2": "Délégation des tâches sur 5 sous-équipes spécialisées de 6 à 7 membres.",
+        "t3": "Fluidification de l'exécution événementielle et l'alignement inter-équipes."
+      },
+      "enigrobots-6": {
+        "title": "Comité d'organisation — ENIGROBOTS 6.0",
+        "org": "Événement robotique à l'ENIG",
+        "t1": "Appui à la planification et à la livraison opérationnelle du programme.",
+        "t2": "Collaboration sur la logistique et la coordination des participants."
+      },
+      "battlesky": {
+        "title": "Comité d'organisation — BATTLESKY 1.0 & 2.0",
+        "org": "Événement aéronautique à l'ENIG",
+        "t1": "Contribution au comité d'organisation sur deux éditions.",
+        "t2": "Coordination des activités de compétition et d'exposition."
+      },
+      "alliance-engineers": {
+        "title": "Membre — Alliance of Engineers Club",
+        "org": "2 ans · Divisions Robotique & Projets",
+        "t1": "Participation aux projets de la division robotique et aux ateliers techniques.",
+        "t2": "Contribution aux initiatives projets du club et à la collaboration entre pairs."
+      }
+    }
+  },
+  "about": {
+    "title": "À propos",
+    "p1": "Je suis Hedhli Saber, étudiant en 2ᵉ année en ingénierie des communications et réseaux à l'École Nationale d'Ingénieurs de Gabès (ENIG).",
+    "p2": "Mon travail couvre les opérations télécom terrain, le réseau certifié Cisco et les systèmes embarqués avec IA — un objectif : des systèmes connectés fiables sur le terrain, intelligents à la périphérie.",
+    "contactTitle": "Contact",
+    "contactCta": "Construisons des systèmes fiables sur le terrain et à la périphérie.",
+    "email": "E-mail",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "credly": "Credly"
+  },
+  "resume": {
+    "title": "CV",
+    "subtitle": "Téléchargez le dernier CV dans votre langue.",
+    "en": "CV anglais",
+    "fr": "CV français",
+    "download": "Télécharger le PDF",
+    "open": "Ouvrir dans un nouvel onglet",
+    "missing": "PDF non téléversé — ajoutez les fichiers dans public/resume/"
+  },
+  "footer": {
+    "built": "Conçu par Hedhli Saber",
+    "school": "ENIG · Ingénierie des communications et réseaux",
+    "status": "Systèmes en ligne"
+  },
+  "contact": {
+    "ctaBand": "Prêt à échanger ?"
+  },
+  "skills": {
+    "title": "Focus technique",
+    "subtitle": "Cliquez sur une compétence pour filtrer les projets",
+    "clear": "Effacer le filtre"
+  },
+  "common": {
+    "learnMore": "En savoir plus",
+    "viewAll": "Voir tout",
+    "backHome": "Retour à l'accueil"
+  }
+}
