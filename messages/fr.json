@@ -19,7 +19,40 @@
     "subhead": "Étudiant en 2ᵉ année en ingénierie des communications et réseaux à l'ENIG. Je conçois et maintiens des infrastructures réseau, développe des applications Python/Django et intègre IoT, vision par ordinateur et robotique sur matériel embarqué.",
     "credentials": "Étudiant en ingénierie des communications et réseaux · ENIG · IoT · Robotique · Vision par ordinateur · Python/Django",
     "ctaProjects": "Voir les projets",
-    "ctaResume": "Télécharger le CV"
+    "ctaResume": "Télécharger le CV",
+    "photoSoon": "Photo bientôt",
+    "scrollProjects": "Projets"
+  },
+  "certs": {
+    "label": "Certifications et accréditations",
+    "ccna1": "CCNA 1",
+    "ccna2": "CCNA 2",
+    "ccna3": "CCNA 3 — en cours",
+    "python": "Programmation Python",
+    "django": "Développement Django",
+    "credly": "Voir tout sur Credly"
+  },
+  "aboutSnapshot": {
+    "eyebrow": "À propos",
+    "title": "Ingénierie des systèmes connectés",
+    "subtitle": "Étudiant en communications et réseaux — infrastructure fiable, logiciel intelligent et prototypes embarqués.",
+    "p1Title": "Opérations réseau",
+    "p1Desc": "Expérience télécom terrain — maintenance de lignes, diagnostic signal et configuration de modems.",
+    "p2Title": "Embarqué & IoT",
+    "p2Desc": "Intégration capteurs, matériel edge et coordination temps réel pour environnements intelligents.",
+    "p3Title": "Logiciel & IA",
+    "p3Desc": "Applications Python/Django, vision par ordinateur et machine learning appliqué."
+  },
+  "skillsGrouped": {
+    "eyebrow": "Expertise technique",
+    "title": "Compétences & technologies",
+    "subtitle": "Réseaux, développement full-stack, systèmes embarqués et IA appliquée.",
+    "groups": {
+      "networks": "Réseaux & infrastructure",
+      "development": "Développement logiciel",
+      "embedded": "Embarqué & IoT",
+      "ai": "IA & vision par ordinateur"
+    }
   },
   "trust": {
     "ccna": "CCNA 1 & 2 certifié · CCNA 3 en cours",
@@ -27,7 +60,9 @@
     "stack": "Python · Django · Linux · ESP32 / Raspberry Pi"
   },
   "dualPath": {
+    "eyebrow": "Axes techniques",
     "title": "Deux axes d'ingénierie",
+    "subtitle": "Développement logiciel & IA, ou robotique, IoT et systèmes embarqués.",
     "devTitle": "Développement logiciel & IA",
     "devDesc": "Plateformes full-stack, systèmes temps réel et deep learning — centrés sur Python et Django.",
     "devCta": "Voir le développement",
@@ -36,6 +71,7 @@
     "iotCta": "Voir robotique & IoT"
   },
   "projects": {
+    "eyebrow": "Portfolio",
     "title": "Projets en vedette",
     "subtitle": "Filtrer par axe technique",
     "filterAll": "Tous",
@@ -163,7 +199,10 @@
     "status": "Systèmes en ligne"
   },
   "contact": {
-    "ctaBand": "Prêt à échanger ?"
+    "eyebrow": "Restons en contact",
+    "title": "Me contacter",
+    "ctaBand": "Prêt à échanger ?",
+    "emailCta": "Envoyer un e-mail"
   },
   "skills": {
     "title": "Focus technique",

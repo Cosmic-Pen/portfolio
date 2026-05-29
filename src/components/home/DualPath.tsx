@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { SectionHeader } from "@/components/ui/SectionHeader";
 import { Cpu, Layers } from "lucide-react";
 
 export function DualPath() {
@@ -26,9 +27,11 @@ export function DualPath() {
 
   return (
     <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-      <h2 className="font-display text-2xl font-semibold text-text-primary">
-        {t("title")}
-      </h2>
+      <SectionHeader
+        eyebrow={t("eyebrow")}
+        title={t("title")}
+        subtitle={t("subtitle")}
+      />
       <div className="mt-8 grid gap-6 md:grid-cols-2">
         {cards.map(({ href, icon: Icon, title, desc, cta, accent }) => (
           <Link

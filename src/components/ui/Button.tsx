@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
 type ButtonProps = {
@@ -7,6 +7,7 @@ type ButtonProps = {
   variant?: "primary" | "secondary" | "ghost";
   className?: string;
   external?: boolean;
+  download?: boolean;
 };
 
 export function Button({
@@ -15,6 +16,7 @@ export function Button({
   variant = "primary",
   className,
   external,
+  download,
 }: ButtonProps) {
   const base =
     "inline-flex items-center justify-center rounded-lg px-5 py-2.5 text-sm font-medium transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-cyan";
@@ -27,13 +29,16 @@ export function Button({
     ghost: "text-accent-cyan hover:bg-bg-elevated",
   };
 
-  if (external) {
+  const classes = cn(base, variants[variant], className);
+
+  if (external || download) {
     return (
       <a
         href={href}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={cn(base, variants[variant], className)}
+        target={download ? undefined : "_blank"}
+        rel={download ? undefined : "noopener noreferrer"}
+        download={download}
+        className={classes}
       >
         {children}
       </a>
@@ -41,7 +46,7 @@ export function Button({
   }
 
   return (
-    <Link href={href} className={cn(base, variants[variant], className)}>
+    <Link href={href} className={classes}>
       {children}
     </Link>
   );

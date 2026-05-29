@@ -1,6 +1,6 @@
 export const socialLinks = {
   email: "mailto:saberhedhli001@gmail.com",
-  linkedin: "https://www.linkedin.com/in/saber-hedhli-hs001/",
+  linkedin: "https://www.linkedin.com/in/saber-hedhli-hs001",
   github: "https://github.com/Cosmic-Pen",
   instagram: "https://www.instagram.com/hedhli_sab.r/",
   facebook: "https://www.facebook.com/saber.hedhli.942",

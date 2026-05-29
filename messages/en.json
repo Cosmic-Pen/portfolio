@@ -19,7 +19,40 @@
     "subhead": "2nd-year Communications & Networks Engineering student at ENIG. I design and maintain network infrastructure, build Python/Django applications, and integrate IoT, computer vision, and robotics on embedded hardware.",
     "credentials": "Communications & Networks Engineering student · ENIG · IoT · Robotics · Computer Vision · Python/Django",
     "ctaProjects": "Explore Projects",
-    "ctaResume": "Download Resume"
+    "ctaResume": "Download Resume",
+    "photoSoon": "Photo coming soon",
+    "scrollProjects": "Projects"
+  },
+  "certs": {
+    "label": "Certifications & credentials",
+    "ccna1": "CCNA 1",
+    "ccna2": "CCNA 2",
+    "ccna3": "CCNA 3 — in progress",
+    "python": "Python Programming",
+    "django": "Django Development",
+    "credly": "View all on Credly"
+  },
+  "aboutSnapshot": {
+    "eyebrow": "About Me",
+    "title": "Engineering connected systems",
+    "subtitle": "Communications & Networks student building reliable infrastructure, intelligent software, and embedded prototypes.",
+    "p1Title": "Network Operations",
+    "p1Desc": "Field telecom experience — line maintenance, signal diagnostics, and modem configuration.",
+    "p2Title": "Embedded & IoT",
+    "p2Desc": "Sensor integration, edge hardware, and real-time coordination for smart environments.",
+    "p3Title": "Software & AI",
+    "p3Desc": "Python/Django applications, computer vision, and applied machine learning."
+  },
+  "skillsGrouped": {
+    "eyebrow": "Technical Expertise",
+    "title": "Skills & Technologies",
+    "subtitle": "Proficient across networking, full-stack development, embedded systems, and applied AI.",
+    "groups": {
+      "networks": "Networks & Infrastructure",
+      "development": "Software Development",
+      "embedded": "Embedded & IoT",
+      "ai": "AI & Computer Vision"
+    }
   },
   "trust": {
     "ccna": "CCNA 1 & 2 certified · CCNA 3 in progress",
@@ -27,7 +60,9 @@
     "stack": "Python · Django · Linux · ESP32 / Raspberry Pi"
   },
   "dualPath": {
+    "eyebrow": "Engineering Lanes",
     "title": "Two engineering lanes",
+    "subtitle": "Explore software & AI development or robotics, IoT, and edge systems.",
     "devTitle": "Software & AI Development",
     "devDesc": "Full-stack platforms, real-time systems, and deep learning — centered on Python and Django.",
     "devCta": "View development work",
@@ -36,6 +71,7 @@
     "iotCta": "View robotics & IoT work"
   },
   "projects": {
+    "eyebrow": "Portfolio",
     "title": "Featured projects",
     "subtitle": "Filter by engineering lane",
     "filterAll": "All",
@@ -163,7 +199,10 @@
     "status": "Systems online"
   },
   "contact": {
-    "ctaBand": "Ready to connect?"
+    "eyebrow": "Let's Connect",
+    "title": "Get In Touch",
+    "ctaBand": "Ready to connect?",
+    "emailCta": "Send Email"
   },
   "skills": {
     "title": "Technical focus",

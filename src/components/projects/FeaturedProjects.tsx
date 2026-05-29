@@ -5,6 +5,7 @@ import { AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { projects, type ProjectCategory } from "@/data/projects";
 import { ProjectCard } from "./ProjectCard";
+import { SectionHeader } from "@/components/ui/SectionHeader";
 import { cn } from "@/lib/utils";
 import { Link } from "@/i18n/navigation";
 
@@ -45,15 +46,14 @@ export function FeaturedProjects({ skillFilter }: { skillFilter?: string }) {
   ];
 
   return (
-    <section className="border-t border-border bg-bg-primary">
+    <section id="projects" className="border-t border-border bg-bg-primary">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
-          <div>
-            <h2 className="font-display text-2xl font-semibold text-text-primary">
-              {t("title")}
-            </h2>
-            <p className="mt-1 text-sm text-text-muted">{t("subtitle")}</p>
-          </div>
+          <SectionHeader
+            eyebrow={t("eyebrow")}
+            title={t("title")}
+            subtitle={t("subtitle")}
+          />
           <Link href="/projects" className="text-sm text-accent-cyan hover:underline">
             {common("viewAll")} →
           </Link>

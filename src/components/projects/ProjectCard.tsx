@@ -36,9 +36,9 @@ export function ProjectCard({ project, index = 0 }: ProjectCardProps) {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -8 }}
       transition={{ delay: index * 0.05 }}
-      className="flex flex-col rounded-xl border border-border bg-bg-elevated overflow-hidden"
+      className="group flex flex-col overflow-hidden rounded-xl border border-border bg-bg-elevated transition-all duration-300 hover:-translate-y-1 hover:border-accent-cyan/30 hover:shadow-[0_12px_40px_rgba(34,211,238,0.08)]"
     >
-      <div className="flex h-32 items-center justify-center border-b border-border bg-bg-primary grid-bg">
+      <div className="flex h-32 items-center justify-center border-b border-border bg-gradient-to-br from-bg-primary to-bg-elevated grid-bg">
         <span
           className={cn(
             "font-mono text-xs uppercase tracking-wider",
