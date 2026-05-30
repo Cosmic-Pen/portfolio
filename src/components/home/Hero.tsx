@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 import { ArrowDown, Download } from "lucide-react";
@@ -60,13 +61,19 @@ export function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          <div className="relative flex h-48 w-48 items-center justify-center rounded-2xl border border-accent-cyan/20 bg-bg-elevated shadow-[0_0_60px_rgba(34,211,238,0.12)] sm:h-56 sm:w-56">
-            <span className="font-display text-5xl font-bold text-accent-cyan/80 sm:text-6xl">
-              HS
-            </span>
-            <div className="absolute -bottom-3 rounded-full border border-border bg-bg-primary px-3 py-1 font-mono text-[10px] text-text-muted">
-              {t("photoSoon")}
-            </div>
+          <div className="relative h-56 w-44 overflow-hidden rounded-2xl border border-accent-cyan/30 bg-bg-elevated shadow-[0_0_60px_rgba(34,211,238,0.15)] sm:h-64 sm:w-52">
+            <Image
+              src="/images/profile.png"
+              alt={t("name")}
+              fill
+              priority
+              sizes="(max-width: 640px) 176px, 208px"
+              className="object-cover object-[center_20%]"
+            />
+            <div
+              className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/10"
+              aria-hidden
+            />
           </div>
           <NetworkTopology />
         </motion.div>
