@@ -149,25 +149,52 @@
         "org": "International robotics event at ENIG",
         "t1": "Coordinated an operations team of 30+ student members.",
         "t2": "Managed task delegation across 5 specialized sub-teams of 6–7 members each.",
-        "t3": "Streamlined event execution and cross-team alignment."
+        "t3": "Streamlined event execution and cross-team alignment.",
+        "media": [
+          "/images/engagements/image17.jpg",
+          "/images/engagements/image27.jpg",
+          "/images/engagements/image3EN7.jpg",
+          "/images/engagements/image4EN7.jpg",
+          "/images/engagements/image6EN7.jpg",
+          "/videos/engagements/ENIGROBOTs_7_0.mp4"
+        ]
       },
       "enigrobots-6": {
         "title": "Organizing Committee — ENIGROBOTS 6.0",
         "org": "Robotics event at ENIG",
         "t1": "Supported planning and operational delivery for the event program.",
-        "t2": "Collaborated with organizing teams on logistics and participant coordination."
+        "t2": "Collaborated with organizing teams on logistics and participant coordination.",
+        "media": [
+          "/images/engagements/image6_0.jpg",
+          "/images/engagements/image16_0.jpg",
+          "/videos/engagements/enigrobots6_0.mp4"
+        ]
       },
       "battlesky": {
         "title": "Organizing Committee — BATTLESKY 1.0 & 2.0",
         "org": "Aeronautics event at ENIG",
         "t1": "Contributed to organizing committee work across two editions of the event.",
-        "t2": "Coordinated activities supporting competition and exhibition execution."
+        "t2": "Coordinated activities supporting competition and exhibition execution.",
+        "media": [
+          "/videos/engagements/BattleSky2_0.mp4",
+          "/videos/engagements/Battlesky1_0.mp4"
+        ]
+        
       },
       "alliance-engineers": {
         "title": "Member — Alliance of Engineers Club",
         "org": "2 years · Robotics & Project Divisions",
         "t1": "Active in robotics division projects and technical workshops.",
-        "t2": "Contributed to club project initiatives and peer collaboration."
+        "t2": "Contributed to club project initiatives and peer collaboration.",
+        "media": [
+          "/images/engagements/image1AOE1.jpg",
+          "/images/engagements/image3AOE.jpg",
+          "/images/engagements/image4AOE.jpg",
+          "/images/engagements/image5AOE1.jpg",
+          "/images/engagements/image6AOE.jpg",
+          "/images/engagements/image7AOE.jpeg",
+          "/images/engagements/image9AOE1.jpeg"
+        ]
       }
     }
   },
