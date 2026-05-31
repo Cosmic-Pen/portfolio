@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { usePathname } from "@/i18n/navigation";
 import { Menu, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { LanguageToggle } from "./LanguageToggle";
@@ -20,7 +21,14 @@ const navKeys = [
 
 export function Header() {
   const t = useTranslations("nav");
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
+
+  const isActive = (href: string) => {
+    if (href === "/") return pathname === "/";
+    if (href === "/projects") return pathname === "/projects";
+    return pathname.startsWith(href);
+  };
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/80 bg-bg-primary/90 backdrop-blur-md">
@@ -39,9 +47,18 @@ export function Header() {
             <Link
               key={key}
               href={href}
-              className="rounded-md px-2.5 py-2 text-sm text-text-muted transition-colors hover:text-accent-cyan"
+              className={cn(
+                "relative rounded-md px-2.5 py-2 text-sm transition-colors",
+                isActive(href)
+                  ? "text-text-primary"
+                  : "text-text-muted hover:text-text-primary",
+              )}
             >
               {t(key)}
+              {/* Active underline indicator */}
+              {isActive(href) && (
+                <span className="absolute bottom-0 left-1/2 h-px w-4 -translate-x-1/2 rounded-full bg-sky-400" />
+              )}
             </Link>
           ))}
         </nav>
@@ -63,6 +80,7 @@ export function Header() {
         </div>
       </div>
 
+      {/* Mobile menu */}
       <div
         className={cn(
           "border-t border-border bg-bg-elevated lg:hidden",
@@ -75,7 +93,12 @@ export function Header() {
               key={key}
               href={href}
               onClick={() => setOpen(false)}
-              className="rounded-md px-3 py-2.5 text-sm text-text-muted hover:bg-bg-primary hover:text-accent-cyan"
+              className={cn(
+                "rounded-md px-3 py-2.5 text-sm transition-colors",
+                isActive(href)
+                  ? "bg-bg-primary text-sky-400"
+                  : "text-text-muted hover:bg-bg-primary hover:text-text-primary",
+              )}
             >
               {t(key)}
             </Link>
