@@ -16,7 +16,7 @@
   "hero": {
     "name": "Hedhli Saber",
     "tagline": "Networks that connect. Systems that sense and decide.",
-    "subhead": "2nd-year Communications & Networks Engineering student at ENIG. I design and maintain network infrastructure, build Python/Django applications, and integrate IoT, computer vision, and robotics on embedded hardware.",
+    "subhead": "Engineering student at ENIG focused on building real systems. Python is my language, Django is my backend framework, and ESP32 is where my code leaves the screen and enters the physical world. I care about writing clean, working software — at every layer of the stack.",
     "credentials": "Communications & Networks Engineering student · ENIG · IoT · Robotics · Computer Vision · Python/Django",
     "ctaProjects": "Explore Projects",
     "ctaResume": "Download Resume",
@@ -53,11 +53,6 @@
       "embedded": "Embedded & IoT",
       "ai": "AI & Computer Vision"
     }
-  },
-  "trust": {
-    "ccna": "CCNA 1 & 2 certified · CCNA 3 in progress",
-    "enigrobots": "ENIGROBOTS 7.0 — Bureau coordination",
-    "stack": "Python · Django · Linux · ESP32 / Raspberry Pi"
   },
   "dualPath": {
     "eyebrow": "Engineering Lanes",

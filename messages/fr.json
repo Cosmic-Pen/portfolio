@@ -16,7 +16,7 @@
   "hero": {
     "name": "Hedhli Saber",
     "tagline": "Des réseaux qui relient. Des systèmes qui perçoivent et décident.",
-    "subhead": "Étudiant en 2ᵉ année en ingénierie des communications et réseaux à l'ENIG. Je conçois et maintiens des infrastructures réseau, développe des applications Python/Django et intègre IoT, vision par ordinateur et robotique sur matériel embarqué.",
+    "subhead": "Étudiant ingénieur à l'ENIG avec un objectif clair : construire des systèmes qui fonctionnent. Python est mon langage, Django est mon framework backend, et l'ESP32 est là où mon code quitte l'écran pour entrer dans le monde physique. Je m'attache à écrire un logiciel propre et fonctionnel — à chaque couche de la stack.",
     "credentials": "Étudiant en ingénierie des communications et réseaux · ENIG · IoT · Robotique · Vision par ordinateur · Python/Django",
     "ctaProjects": "Voir les projets",
     "ctaResume": "Télécharger le CV",
